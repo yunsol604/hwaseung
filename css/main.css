@@ -189,7 +189,7 @@ header.on .util .btn_total_menu span:nth-child(3) {
 footer {
    padding-top: 116px;
    height: 655px;
-   background: url(/img/footer_bg_.png) no-repeat center;
+   background: url(../img/footer_bg_.png) no-repeat center;
    color: #FFF;
 }
 footer .footer_container {
@@ -236,7 +236,7 @@ footer .footer_right {}
 footer .familysite_wrap .ft_family {}
 footer .familysite_wrap .ft_family_btn {
    width: 12px;height: 8px;
-   background: url(/img/arrow_down_white_01.png) no-repeat center;
+   background: url(../img/arrow_down_white_01.png) no-repeat center;
 }
 footer .familysite_wrap {
    display: flex;align-items: center;justify-content: space-between;
@@ -380,11 +380,11 @@ main .line {
    position: relative;width: 410px;height: 370px;
    transition: all 0.5s;
 }
-.main_business .bs_content li:nth-child(1) {background: url(/img/busi_con01.png) no-repeat;}
-.main_business .bs_content li:nth-child(2) {background: url(/img/busi_con02.png) no-repeat;}
-.main_business .bs_content li:nth-child(3) {background: url(/img/busi_con03.png) no-repeat;}
-.main_business .bs_content li:nth-child(4) {background: url(/img/busi_con04.png) no-repeat;}
-.main_business .bs_content li:nth-child(5) {background: url(/img/busi_con05.png) no-repeat;}
+.main_business .bs_content li:nth-child(1) {background: url(../img/busi_con01.png) no-repeat;}
+.main_business .bs_content li:nth-child(2) {background: url(../img/busi_con02.png) no-repeat;}
+.main_business .bs_content li:nth-child(3) {background: url(../img/busi_con03.png) no-repeat;}
+.main_business .bs_content li:nth-child(4) {background: url(../img/busi_con04.png) no-repeat;}
+.main_business .bs_content li:nth-child(5) {background: url(../img/busi_con05.png) no-repeat;}
 .main_business .bs_content li::before {
    content: "";
    display: block;
@@ -471,10 +471,10 @@ main .line {
    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 .main_manage_swiper .progress_wrap .swiper-btn-prev {
-   background: #FFF url(/img/button_arrow_left.png) no-repeat center;
+   background: #FFF url(../img/button_arrow_left.png) no-repeat center;
 }
 .main_manage_swiper .progress_wrap .swiper-btn-next {
-   background: #FFF url(/img/button_arrow_right.png) no-repeat center;
+   background: #FFF url(../img/button_arrow_right.png) no-repeat center;
 }
 .main_manage_swiper .swiper_content {
    /* display: flex;justify-content: space-between;align-items: center; */
