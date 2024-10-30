@@ -50,6 +50,7 @@ const mainSwiper = new Swiper ('.swiper_content', {
    pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      bulletActiveClass: 'on',
    },
    navigation: {
       nextEl: '.swiper-btn-next',
