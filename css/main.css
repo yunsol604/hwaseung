@@ -448,7 +448,7 @@ main .line {
    max-width: 1920px;
    background: #f3f3f3;
 }
-.main_manage .ht_box {padding-top: 80px;margin-bottom: 150px;}
+.main_manage .ht_box {padding-top: 80px;margin-bottom: 200px;}
 .main_manage .line {left: 145px;}
 .main_manage .main_manage_swiper {
    margin: 50px auto;
@@ -486,7 +486,8 @@ main .line {
    /* gap: 50px; */
 }
 .main_manage_swiper .swiper-slide {
-   width: 675px !important;
+   /* width: 675px !important; */
+   width: auto;
    /* margin: 0 30px; */
 }
 .main_manage_swiper .slide_img {
@@ -496,7 +497,7 @@ main .line {
 .main_manage_swiper .swiper-slide .img_txt {
    display: flex;justify-content: center;align-items: center;
    width: 180px;height: 180px;padding: 24px 20px;
-   position: absolute;top: 0;right: 0;
+   position: absolute;top: 0;right: -35px;opacity: 0;
    font-size: 24px;color: #FFF;font-weight: 700;
 }
 .main_manage_swiper .swiper-slide .img_txt .black {color: #000;}
@@ -504,6 +505,7 @@ main .line {
    width: 12px;height: 12px;
    position: absolute;top: 24px;right: 20px;
 }
+.main_manage_swiper .swiper-slide-active .img_txt {opacity: 1;}
 
 
 /* Main - story */

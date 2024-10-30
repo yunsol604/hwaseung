@@ -43,13 +43,14 @@ const mainSwiper = new Swiper ('.swiper_content', {
       disableOnInteraction: false,
    },
    centeredSlides: true,
+   centerInsufficientSlides: true,
    slidesPerView: 3,
-   // spaceBetween: 150,
+   spaceBetween: 80,
    speed: 300,
-   // pagination: {
-   //    el: '.swiper-pagination',
-   //    clickable: true,
-   // },
+   pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   },
    navigation: {
       nextEl: '.swiper-btn-next',
       prevEl: '.swiper-btn-prev',
