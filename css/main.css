@@ -369,6 +369,7 @@ main .line {
 .main_visual .main_mv_txt .mv_intro img {object-fit: contain;}
 
 /* Main - business */
+.main_business .ht_box {margin-top: 100px;}
 .main_business .line {left: 103px;}
 .main_business .bs_content {width: 100%;}
 .main_business .bs_content ul {
