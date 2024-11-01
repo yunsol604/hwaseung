@@ -6,6 +6,7 @@
    width: 0;
    height: 0;
 }
+button {cursor: pointer;}
 
 /* wrap */
 #wrap {
@@ -397,6 +398,7 @@ main .line {
    position: absolute;
    left: 50%;bottom: 27px;
    transform: translateX(-50%);
+   width: 100%;text-align: center;
    color: #FFF;font-size: 26px;font-weight: 700;
 }
 .main_business .bs_content dl {
@@ -491,17 +493,19 @@ main .line {
    position: absolute;top: 24px;right: 20px;
 }
 .main_manage_swiper .swiper-slide-active .img_txt {opacity: 1;}
-.main_visual .swiper-controls-wrap {
+.main_manage_swiper .swiper-controls-wrap {
    display: flex;gap: 10px;justify-content: center;align-items: center;
    /* position: absolute;bottom: 30%;left: 0;right: 0;z-index: 1; */
 }
 .main_manage_swiper .swiper-pagination {
    display: flex;gap: 25px;justify-content: center;align-items: center;
+   border: 1px solid red;
 }
 .main_manage_swiper .swiper-auto-controls {
    z-index: 999;
 }
 .main_manage_swiper .auto-play {
+   display: none;
    width: 24px;height: 24px;
    background-image: url(../img/button_slide_play.png);
    background-repeat: no-repeat;
@@ -521,24 +525,19 @@ main .line {
    height: 29px; */
    /* margin: 0 5px; */
    background-color: transparent;
-   transition: all .3s;
+   transition: all .3s;opacity: 1;
 }
-
-.main_manage_swiper .swiper-pagination span.on {
-   opacity: 1;width: 12px;height: 12px;
-}
+.main_manage_swiper .swiper-pagination span.on {}
 .main_manage_swiper .swiper-pagination span:before {
    content: "";display: block;
    position: absolute;left: 50%;top: 50%;
    transform: translate(-50%, -50%);
    border: 2px solid #545454;border-radius: 50%;
-   transition: all .3s;
+   transition: all .3s;opacity: 0;
 }
-
 .main_manage_swiper .swiper-pagination span.on:before {
    width: 33px;height: 33px;opacity: 1;
 }
-
 .main_manage_swiper .swiper-pagination span:after {
    content: "";display: block;
    position: absolute;left: 50%;top: 50%;

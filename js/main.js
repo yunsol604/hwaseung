@@ -57,3 +57,13 @@ const mainSwiper = new Swiper ('.swiper_content', {
       prevEl: '.swiper-btn-prev',
    },
 });
+$('.swiper_content .auto-play').click(function() {
+   $(this).hide()
+   $('.swiper_content .auto-stop').show();
+      mainSwiper.autoplay.start();
+})
+$('.swiper_content .auto-stop').click(function() {
+   $(this).hide()
+   $('.swiper_content .auto-play').show();
+      mainSwiper.autoplay.stop();
+})
