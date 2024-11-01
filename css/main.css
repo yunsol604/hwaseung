@@ -459,7 +459,7 @@ main .line {
 .main_manage .main_manage_swiper {padding-bottom: 150px;}
 .main_manage_swiper .progress_wrap {
    display: flex;justify-content: space-between;align-items: center;z-index: 80;
-   position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);
+   position: absolute;left: 50%;top: 23%;transform: translate(-50%,-50%);
    width: 760px;margin: auto;
 }
 .main_manage_swiper .progress_wrap button {
