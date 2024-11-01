@@ -16,6 +16,7 @@ $(window).scroll(function() { //스크롤링이 될 때마다
 $('.header_left #gnb>li').hover(function() { //over
    $('.header_left .allmenu_wrap').stop().slideDown();
    $('header').addClass('on')
+   $('header').css('background-color', '#FFF')
 });
 $('.header_left .allmenu_wrap').hover(function() { //out
    $('.header_left .allmenu_wrap').stop().slideDown();
@@ -23,6 +24,7 @@ $('.header_left .allmenu_wrap').hover(function() { //out
 }, function() {
    $('.header_left .allmenu_wrap').stop().slideUp();
    $('header').removeClass('on')
+   $('header').css('background-color', '')
 });
 $('.btn_total_menu').click(function() {
    $('.header_left .allmenu_wrap').stop().slideDown();

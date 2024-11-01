@@ -112,8 +112,9 @@ header .allmenu_wrap .allmenu .dep2 {
 
 /* header on */
 header.on {
-   background: #FFF;color: inherit;
+   background: rgba(255, 255, 255, 0.8);color: inherit;
 }
+/* header:hover {background: #FFF;} */
 header.on h1 a {
    background-image: url(../img/logo_blue_01.png);
    background-position: center;
@@ -486,6 +487,7 @@ main .line {
    width: 180px;height: 180px;padding: 24px 20px;
    position: absolute;top: 0;right: -35px;opacity: 0;
    font-size: 24px;color: #FFF;font-weight: 700;
+   transition: all 0.2s;
 }
 .main_manage_swiper .swiper-slide .img_txt .black {color: #000;}
 .swiper-slide .img_txt .txt_arrow {
@@ -502,18 +504,21 @@ main .line {
    border: 1px solid red;
 }
 .main_manage_swiper .swiper-auto-controls {
-   z-index: 999;
+   z-index: 999;position: absolute;left: 0;bottom: 0;
+   background: hotpink;
 }
 .main_manage_swiper .auto-play {
    display: none;
    width: 24px;height: 24px;
    background-image: url(../img/button_slide_play.png);
    background-repeat: no-repeat;
+   background-position: center;
 }
 .main_manage_swiper .auto-stop {
    width: 24px;height: 24px;
    background-image: url(../img/button_slide_stop.png);
    background-repeat: no-repeat;
+   background-position: center;
 }
 /* .main_manage_swiper .swiper-pagination span {
    width: 10px;height: 10px;
