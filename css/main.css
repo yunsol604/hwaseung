@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
+html,body {overflow-x: hidden;}
 .screen_out {
    display: block;
    overflow: hidden;
