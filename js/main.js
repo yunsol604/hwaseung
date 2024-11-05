@@ -14,8 +14,12 @@ $('.header_left #gnb>li').hover(function() { //over
    $('.header_left .allmenu_wrap').stop().slideDown();
    $('header').addClass('on')
    $('header').css('background-color', '#FFF')
+   let index = $(this).index(); // 현재 hover 중인 li 인덱스
+   $('.allmenu_wrap .allmenu > li').eq(index).css('color', '#0b56a7')
    $(this).addClass('over')
 }, function() {
+   let index = $(this).index(); // hover 해제한 li 인덱스
+   $('.allmenu_wrap .allmenu > li').eq(index).css('color', '')
    $(this).removeClass('over')
 });
 $('.header_left .allmenu_wrap').hover(function() { //out
@@ -29,10 +33,8 @@ $('.header_left .allmenu_wrap').hover(function() { //out
 $('.btn_total_menu').click(function() {
    $('.header_left .allmenu_wrap').stop().slideDown();
    $('header').addClass('on')
+   $('header').css('background-color', '#FFF')
 });
-$('.header_left #gnb li').hover(function() {
-   $('header')
-})
 
 //*** Footer - Family Site
 $('.familysite_wrap').click(function() {
