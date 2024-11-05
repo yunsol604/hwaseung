@@ -17,6 +17,9 @@ $('.header_left #gnb>li').hover(function() { //over
    $('.header_left .allmenu_wrap').stop().slideDown();
    $('header').addClass('on')
    $('header').css('background-color', '#FFF')
+   $(this).addClass('over')
+}, function() {
+   $(this).removeClass('over')
 });
 $('.header_left .allmenu_wrap').hover(function() { //out
    $('.header_left .allmenu_wrap').stop().slideDown();
@@ -30,6 +33,9 @@ $('.btn_total_menu').click(function() {
    $('.header_left .allmenu_wrap').stop().slideDown();
    $('header').addClass('on')
 });
+$('.header_left #gnb li').hover(function() {
+   $('header')
+})
 
 /* Footer - Family Site */
 $('.familysite_wrap').click(function() {
