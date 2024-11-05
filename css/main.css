@@ -8,6 +8,11 @@ html,body {overflow-x: hidden;}
    height: 0;
 }
 button {cursor: pointer;}
+/* .ht_box {
+   opacity: 0;
+   transform: translateY(30px);
+   transition: 0.6s ease;transform: 0.6s ease;
+} */
 
 /* wrap */
 #wrap {
@@ -87,8 +92,6 @@ header #gnb>li::after {
    transition: all 0.2s;z-index: 9999;
 }
 header #gnb>li.over::after {left: 0;right: 0;}
-
-header #gnb>li:hover .allmenu>li {color: #0b56a7;}
 
 header .allmenu_wrap {
    display: none;
